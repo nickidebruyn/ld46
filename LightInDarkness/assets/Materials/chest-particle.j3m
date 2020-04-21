@@ -1,0 +1,10 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        UseVertexColor : false
+        Ambient : 1.0 1.0 1.0 1.0
+        Diffuse : 0.4 0.2 0.0 1.0
+        UseMaterialColors : true
+     }
+    AdditionalRenderState {
+    }
+}

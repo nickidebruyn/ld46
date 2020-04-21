@@ -1,0 +1,10 @@
+Material My Material : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+        ColorMap : "Textures/dust.png"
+        Color : 0.3882353 0.2784314 0.0 1.0
+        AlphaDiscardThreshold : 0.5
+     }
+    AdditionalRenderState {
+      Blend Alpha
+    }
+}

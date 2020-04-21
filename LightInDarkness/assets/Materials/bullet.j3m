@@ -1,0 +1,10 @@
+Material My Material : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+        ColorMap : "Textures/bullet.png"
+        Color : 1.0 0.6 0.0 1.0
+     }
+    AdditionalRenderState {
+      Blend AlphaAdditive
+      FaceCull Off
+    }
+}

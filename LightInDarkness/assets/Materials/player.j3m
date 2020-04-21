@@ -1,0 +1,20 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Repeat "Textures/player.png"
+        AlphaDiscardThreshold : 0.5
+        VertexLighting : false
+        UseVertexColor : false
+        BackfaceShadows : false
+        UseFog : false
+        Diffuse : 1.0 1.0 1.0 1.0
+        Ambient : 1.0 1.0 1.0 1.0
+     }
+    AdditionalRenderState {
+      Blend PremultAlpha
+      FaceCull Off
+      AlphaTestFalloff 0.0
+      ColorWrite On
+      DepthWrite Off
+      PointSprite Off
+    }
+}

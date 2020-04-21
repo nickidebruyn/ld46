@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Misc/Unshaded.j3md {
+     MaterialParameters {
+        AlphaDiscardThreshold : 0.4
+        ColorMap : Flip Repeat "Textures/pickups.png"
+     }
+    AdditionalRenderState {
+      Blend Alpha
+    }
+}

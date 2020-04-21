@@ -1,0 +1,9 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        DiffuseMap : Flip Repeat "Textures/pickups.png"
+        AlphaDiscardThreshold : 0.4
+     }
+    AdditionalRenderState {
+      Blend Alpha
+    }
+}
