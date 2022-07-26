@@ -343,6 +343,7 @@ public class Player extends Platform2DPlayer implements PhysicsTickListener {
     @Override
     public void prePhysicsTick(PhysicsSpace space, float tpf) {
 
+        movementDirection.normalizeLocal();
         rbc.move(movementDirection.x * tpf * walkSpeed, movementDirection.y * tpf * walkSpeed);
 
     }

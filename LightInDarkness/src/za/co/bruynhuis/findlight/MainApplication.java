@@ -37,7 +37,7 @@ import za.co.bruynhuis.findlight.screens.WinScreen;
 public class MainApplication extends Base2DApplication {
 
     public static final float CAMERA_HEIGHT = 9f;
-    private boolean devMode = false;
+    private boolean devMode = true;
 
     public static void main(String[] args) {
         new MainApplication();
